@@ -6,6 +6,7 @@ import com.example.identity_service.dto.response.UserResponse;
 import com.example.identity_service.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
+import org.mapstruct.NullValuePropertyMappingStrategy;
 
 @Mapper(componentModel = "spring")
 public interface UserMapper {
